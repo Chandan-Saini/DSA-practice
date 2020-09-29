@@ -1,5 +1,5 @@
-var a =["c","h"]
+function rev(str) {
+    console.log(str.split("").reverse().join(""))
+}
 
-for(var i=a.length; i>=0; i--){
-    console.log(a[i]);
-};
+rev("hello")
