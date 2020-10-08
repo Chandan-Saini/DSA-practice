@@ -1,12 +1,16 @@
-var rotate = function (nums, k) {
-  var arr = [];
-  for (var i = 0; i < k; i++) {
-    arr.push(nums[i]);
-    nums[i] = nums[nums.length - 1];
+var findSame = function (nums) {
+  var shortNums= nums.sort(function (a,b) {
+    return a-b
+  })
+     console.log(shortNums);
+  for (var i = 0; i < nums.length; i++) {
+      if(shortNums[i]===shortNums[i+1]){
+        return shortNums[i]
+      }else{
+        return undefined
+      }
   }
-
-  return arr.concat(nums);
 };
 
 
-console.log(rotate([1,2,3,4,5,6,7],3))
+console.log(findSame([2,1,9,33]))
