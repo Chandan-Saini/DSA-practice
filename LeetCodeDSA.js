@@ -1,16 +1,13 @@
-var findSame = function (nums) {
-  var shortNums= nums.sort(function (a,b) {
-    return a-b
-  })
-     console.log(shortNums);
-  for (var i = 0; i < nums.length; i++) {
-      if(shortNums[i]===shortNums[i+1]){
-        return shortNums[i]
-      }else{
-        return undefined
-      }
+class LinkedList {
+  constructor(value) {
+    this.head = {
+      value: value,
+      next: null,
+    };
+    this.tail = this.head;
+    this.length = 1;
   }
-};
+}
 
-
-console.log(findSame([2,1,9,33]))
+const myLinkedList = new LinkedList(10);
+console.log(myLinkedList);
