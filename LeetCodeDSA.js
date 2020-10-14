@@ -1,2 +1,2 @@
 
-// studied about trees
+// studied nothing
