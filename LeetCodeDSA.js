@@ -1,2 +1,2 @@
 
-// studied binary trees
+// studied binary search trees
