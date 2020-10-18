@@ -1,2 +1,2 @@
 
-// studied binary search trees
+// studied nothing
