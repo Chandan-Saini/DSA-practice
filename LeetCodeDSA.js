@@ -1,2 +1,2 @@
 
-// studied sorting
+// studied searching
