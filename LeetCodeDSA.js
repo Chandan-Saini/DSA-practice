@@ -1,2 +1,2 @@
 
-// studied searching
+// studied nothing
