@@ -1,2 +1,2 @@
 
-// studied dynamic programming
+// studied nothing
