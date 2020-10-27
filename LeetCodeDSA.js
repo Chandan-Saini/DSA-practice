@@ -1,2 +1,2 @@
 
-// interview prep
+// studied nothing
